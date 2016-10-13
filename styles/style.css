@@ -1,0 +1,120 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background-color:#E6E6FA;
+}
+
+.container {
+	margin:0; 
+	padding:0; 
+	background-color:#E6E6FA;
+}
+#head_wrap{
+	width:100%; 
+	height:100px;
+	margin:0 auto;
+	border-bottom:5px solid brown;
+	padding:10px; 
+	background:#1E90FF;
+}
+
+#header {
+	margin:0 auto;
+	width:1000px;
+	height:100px;
+}
+#form1 {
+	float:right;
+	line-height:100px;
+}
+#form1 input {
+	width:150px; 
+	height:20px;
+	padding:10px;
+}
+#form1 button {
+	width:100px; 
+	padding:10px;
+}
+#form1 button:hover{ 
+	background-color:blue;
+	color:white;
+}
+
+#content {
+	width:1000px; 
+	margin:0 auto;
+}
+#form2 {
+	float:right;
+	margin-top:20px;
+}
+#form2 input {
+	width:250px; 
+	height:20px; 
+	padding:10px;
+	border:1px solid black; 
+	border-radius:5px;
+}
+#form2 select {
+	width:270px;  
+	padding:10px;
+	border:1px solid black; 
+	border-radius:5px;
+}
+#form2 button {
+	width:270px;  
+	padding:10px;
+	margin-left:70px;
+}
+#form2 button:hover {
+	background-color:blue; 
+	color:white;
+}
+#form2 h2 {
+	padding:5px;
+	margin-left:100px;
+	font-family:Comic Sans Ms;
+}
+
+#footer{
+	width:100%; 
+	height:40px; 
+	padding:10px; 
+	background:#1E90FF;
+	border-top:5px solid brown;
+	clear:both;
+}
+#footer h2{
+
+	text-align:center;
+	padding-top:3px; 
+	color:white;
+
+}
